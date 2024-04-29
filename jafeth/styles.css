@@ -1,0 +1,110 @@
+.currículum {
+
+width: 70%;
+margin-left: 15%;
+border-radius: 12px;
+background-color: white;
+
+}
+
+.mainContainer {
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  
+
+}
+
+.cube-1 {
+  width: 98%;
+  height: 250px;
+  text-align: end;
+
+}
+
+.cube-2 {
+
+  width: 98%;
+  height: 250px;
+
+}
+
+.img-currí {
+
+width: 220px;
+height: 210px;
+margin-left: 7.5%;
+
+border: solid 20px rgb(64, 51, 20);
+
+}
+
+.border {
+
+width: 56.8%;
+height: 225px;
+margin-top: 0.8%;
+margin-left: 0.5%;
+position: absolute;
+border: solid 2px gray;
+
+}
+
+.cube-3 {
+
+  width: 98%;
+  height: 650px;
+  background-color: rgb(199, 195, 195);
+  
+}
+
+.info-1 {
+
+   margin-left: 5%;
+
+}
+
+.cube-4 {
+
+  width: 98%;
+  height: 650px;
+
+
+}
+
+.cube-5 {
+ 
+  width: 60%;
+  height: 150px;
+  display: grid;
+  margin-top: 20px;
+  margin-left: 30px;
+  grid-template-columns: 50% 50%;
+
+
+}
+
+.cube-6 {
+
+  width: 98%;
+  display: grid;
+  height: 150px;
+  
+  grid-template-columns: 50% 50%;
+  background-color: rgb(199, 195, 195);
+
+}
+
+#p1{
+  border-left: 4px solid #0f0f0f;
+
+
+  height: 120px;
+}
+
+#p1 > p{
+  padding-left: 15px;
+}
+
+
+
