@@ -106,5 +106,45 @@ border: solid 2px gray;
   padding-left: 15px;
 }
 
+hr {
 
+  height: 3px;
+  background-color: black;
 
+}
+
+.b-1 {
+
+width: 60%;
+margin-left: 20%;
+border-radius: 12px;
+border-color: blue;
+background-color: white;
+
+}
+
+#num1 {
+  color:white;
+border-radius: 3px;
+background-color: blue;
+
+}
+
+#num0 {
+
+  margin-left: 46%;
+  margin-top: 10%;
+  border-radius: 12px;
+  width: 100px;
+  height: 100px;
+
+}
+
+#num2 {
+
+width: 100px;
+color: white;
+border-radius: 3px;
+background-color: red;
+
+}
