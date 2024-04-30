@@ -129,7 +129,7 @@ width: 30%;
 height: 18px;
 margin-left: 20%;
 border-radius: 12px;
-border-color: blue;
+border-color: red;
 background-color: white;
 
 }
@@ -148,10 +148,10 @@ background-color: white;
 #num1 {
 
 width: 30%;
-height: 18px;
+height: 25px;
 margin-left: 20%;
 border-radius: 12px;
-border-color: blue;
+border-color:  red;
 background-color: white;
 
 }
@@ -161,7 +161,7 @@ background-color: white;
 #num2 {
 
 width: 30%;
-height: 18px;
+height: 25px;
 margin-left: -0.3%;
 border-radius: 12px;
 border-color: blue;

@@ -1,31 +1,24 @@
 const like = document.getElementById('num1')
-LikeCountElement = document.getElementById('num0')
-DisLikeCountElement = document.getElementById('num-0')
+LikeCountElement = document.getElementById('num-0')
+DisLikeCountElement = document.getElementById('num0')
 let dislike = document.getElementById('num2')
 let LikeCUENTA = 0;
+let LikeCuenta = 0;
 
 like.addEventListener( 'click' , () => {
 
-   LikeCUENTA++;
-   LikeCountElement.textContent = LikeCUENTA;
+    LikeCuenta++;
+    DisLikeCountElement.textContent = LikeCuenta;
 
 })
 
 
 num2.addEventListener( 'click' , () => {
 
-    LikeCUENTA--;
-    DisLikeCountElement.textContent = LikeCUENTA;
+   LikeCUENTA++;
+   LikeCountElement.textContent = LikeCUENTA;
  
  })
  
 
- const subs = document.getElementById('subs');
 
- subs.addEventListener('click', function () {
-    if (subs.innerHTML == 'Suscripshon') {
-        subs.innerHTML = 'Desuscripshon'
-    } else { 
-        subs.innerHTML = 'Desuscripshon'
-    }
- })
