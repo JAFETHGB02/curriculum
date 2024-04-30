@@ -1,5 +1,6 @@
 const like = document.getElementById('num1')
 LikeCountElement = document.getElementById('num0')
+DisLikeCountElement = document.getElementById('num-0')
 let dislike = document.getElementById('num2')
 let LikeCUENTA = 0;
 
@@ -14,7 +15,7 @@ like.addEventListener( 'click' , () => {
 num2.addEventListener( 'click' , () => {
 
     LikeCUENTA--;
-    LikeCountElement.textContent = LikeCUENTA;
+    DisLikeCountElement.textContent = LikeCUENTA;
  
  })
  

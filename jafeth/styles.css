@@ -123,28 +123,48 @@ background-color: white;
 
 }
 
-#num1 {
-  color:white;
-border-radius: 3px;
-background-color: blue;
-
-}
-
 #num0 {
 
-  margin-left: 46%;
-  margin-top: 10%;
-  border-radius: 12px;
-  width: 100px;
-  height: 100px;
+width: 30%;
+height: 18px;
+margin-left: 20%;
+border-radius: 12px;
+border-color: blue;
+background-color: white;
 
 }
+
+#num-0 {
+
+width: 30%;
+height: 18px;
+margin-left: -0.3%;
+border-radius: 12px;
+border-color: blue;
+background-color: white;
+
+}
+
+#num1 {
+
+width: 30%;
+height: 18px;
+margin-left: 20%;
+border-radius: 12px;
+border-color: blue;
+background-color: white;
+
+}
+
+
 
 #num2 {
 
-width: 100px;
-color: white;
-border-radius: 3px;
-background-color: red;
+width: 30%;
+height: 18px;
+margin-left: -0.3%;
+border-radius: 12px;
+border-color: blue;
+background-color: white;
 
 }
