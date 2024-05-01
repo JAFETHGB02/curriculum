@@ -1,22 +1,22 @@
-const like = document.getElementById('btn btn-formulario btn-2')
-LikeCountElement = document.getElementById('num-0')
-DisLikeCountElement = document.getElementById('num0')
-let dislike = document.getElementById('btn btn-formulario btn-2')
-let LikeCUENTA = 0;
+LikeCountElement = document.getElementById('btn-3')
+DisLikeCountElement = document.getElementById('btm-4')
+const like = document.getElementById('btn-5')
+let Dislike = document.getElementById('btn-6')
 let LikeCuenta = 0;
+let DisLikeCuenta = 0;
 
 like.addEventListener( 'click' , () => {
 
     LikeCuenta++;
-    DisLikeCountElement.textContent = LikeCuenta;
+    LikeCountElement.textContent = LikeCuenta;
 
 })
 
 
 num2.addEventListener( 'click' , () => {
 
-   LikeCUENTA++;
-   LikeCountElement.textContent = LikeCUENTA;
+   DisLikeCuenta++;
+   DisLikeCountElement.textContent = LikeCuenta;
  
  })
  
